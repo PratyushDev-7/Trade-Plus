@@ -1,0 +1,22 @@
+[
+{
+"name":"Nifty 50 Index Fund",
+"risk":"Low",
+"type":"Index"
+},
+{
+"name":"Flexi Cap Fund",
+"risk":"Medium",
+"type":"Flexi"
+},
+{
+"name":"Large Cap Fund",
+"risk":"Low",
+"type":"Large Cap"
+},
+{
+"name":"Mid Cap Fund",
+"risk":"High",
+"type":"Growth"
+}
+]
