@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FinanceAI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<header>
+    <h1>FinanceAI</h1>
+    <p>Your Personal AI Accountant</p>
+</header>
+
+<section class="upload-card">
+    <input type="file" id="csvFile" accept=".csv">
+    <button onclick="loadCSV()">Analyze Statement</button>
+</section>
+
+<section class="stats">
+
+    <div class="card">
+        <h3>Total Spend</h3>
+        <h2 id="totalSpend">₹0</h2>
+    </div>
+
+    <div class="card">
+        <h3>Savings Potential</h3>
+        <h2 id="savings">₹0</h2>
+    </div>
+
+    <div class="card">
+        <h3>Recommended SIP</h3>
+        <h2 id="sip">₹0</h2>
+    </div>
+
+    <div class="card">
+        <h3>Credit Score</h3>
+        <h2 id="credit">750</h2>
+    </div>
+
+</section>
+
+<section class="charts">
+    <canvas id="expenseChart"></canvas>
+</section>
+
+<section class="insights">
+    <h2>AI Insights</h2>
+    <ul id="insightList"></ul>
+</section>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
